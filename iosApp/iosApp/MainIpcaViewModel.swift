@@ -11,6 +11,9 @@ import shared
 
 class MainIpcaViewModel: ObservableObject {
     private let ipcaModel: IpcaViewModel = IpcaViewModel()
+    let indices = ["IPCA", "INPC", "IGPM"]
+    let pikerMonths = ["jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."]
+    let pikerYears = [1,2,3,4,5,6,7,8,9]
     @Published var monthlyIPCAs: [MonthlyIPCA] = []
     @Published var errorMessage: String? = nil
     

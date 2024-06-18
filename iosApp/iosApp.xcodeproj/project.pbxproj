@@ -12,7 +12,6 @@
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		61E3202B2C12A8AA00E290AC /* MainIpcaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3202A2C12A8AA00E290AC /* MainIpcaViewModel.swift */; };
 		61ECFCD02C0AB8B2007B6CFD /* MainIpcaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ECFCCF2C0AB8B2007B6CFD /* MainIpcaView.swift */; };
-		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +34,6 @@
 		61E3202A2C12A8AA00E290AC /* MainIpcaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIpcaViewModel.swift; sourceTree = "<group>"; };
 		61ECFCCF2C0AB8B2007B6CFD /* MainIpcaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIpcaView.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
-				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
@@ -191,7 +188,6 @@
 				61E3202B2C12A8AA00E290AC /* MainIpcaViewModel.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				61ECFCD02C0AB8B2007B6CFD /* MainIpcaView.swift in Sources */,
-				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
